@@ -1,0 +1,176 @@
+body {
+    background-color: #333333;
+    font-family: 'Montserrat Light';
+    font-size: 12px;
+    padding: 15px;
+}
+
+.container, .container-fluid {
+    background-color: #454545;
+    border-radius: 5px 5px;
+    margin-bottom: 15px;
+}
+
+#header h1 {
+    background: linear-gradient(to right, #6de0c0, #9080dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px auto;
+    width: 25%;
+    font-size: 32px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    min-height: 8vh;
+}
+
+#row1 {
+    min-height: 60vh-30px;
+}
+
+#row2 {
+    min-height: 25vh-30px;
+}
+
+.col-1 {
+    padding: 0;
+}
+
+#canvas {
+    height: 430px;
+    display: flex;
+}
+
+#canvas canvas {
+    margin: 15px auto auto;
+    position: absolute;
+    overflow: scroll;
+}
+
+#layer1 {
+    border: solid #808080 1px;
+}
+
+#tools, #hidden-tools {
+    padding: 5px;
+    overflow: none;
+    margin: 0px 0px 15px 0px;
+}
+
+img.btn {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+
+.slider {
+    outline: none;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    height: 4px;
+    background: #d3d3d3; /* Grey background */
+    margin: 0px;
+    width: 100%;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: #a297da; /* Green background */
+    border-radius: 50%;
+    cursor: pointer; /* Cursor on hover */
+}
+
+#size, #fontSize, #transparency {
+    color: #a297da;
+    font-size: 12px;
+    margin: 5px;
+    text-align: center;
+}
+
+.hidden-container {
+    display: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.custom-select {
+    width: 100% !important;
+    height: 30px;
+    font-size: 14px;
+    padding: auto;
+}
+
+#upload, #download {
+    width: 0px;
+    height: 0px;
+    -webkit-appearance: none;
+}
+
+.row, .flex-row {
+    margin: 0 !important;
+}
+
+#palette {
+    margin: 15px;
+    -ms-grid-row-align: center;
+}
+
+.layerHeading {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#newLayer:hover {
+    color: #6de0c0;
+}
+
+.visible {
+    position: absolute;
+    background-color: #aaa;
+    border: none;
+    height: 20px;
+    width: 20px;
+}
+
+.mini {
+    height: 20%;
+    padding: 15px;
+}
+
+.col-auto {
+    margin-left: 15px;
+}
+
+.mini img {
+    border: solid #808080 2px;
+}
+
+.minimap input {
+    /*-webkit-appearance: none;
+    background-color: #aaa;*/
+}
+
+.minimap {
+    margin-right: 15px;
+}
+
+#layerSelector {
+    height: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#textbox, #textbox:focus {
+    background-color: transparent !important;
+    border: none !important;
+    outline-color: transparent !important;
+    color: transparent !important;
+}
+
+#palette:hover {
+    cursor: url('image/dropper.png') 0 50, auto;
+}
