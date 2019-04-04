@@ -37,3 +37,66 @@
 
 ## Put your report below here
 
+## Basic Function
+1. Basic control tools (30%)
+
+    - **Brush**: Click ![](https://i.imgur.com/QafeBm8.png =30x30) in the left toolbar to select the brush.
+    - **Eraser**: Click ![](https://i.imgur.com/iZ12cAA.png =30x30) in the left toolbar to select the eraser. It is a **real eraser**, not a liquid paper or correction tape. It wipes canvas transparent rather than white.
+    - Click on the ![](https://i.imgur.com/QafeBm8.png =30x30) or ![](https://i.imgur.com/iZ12cAA.png =30x30) to show or hide slider for stroke size. If it doesn't work, click again.
+   - **Color selector**:
+        - The color selector is in the right panel.
+        - Click on the rainbow stripe to select color, then click on the gradient to choose brightness and saturation.
+        - A slidebar to adjust transparency.
+    
+2. **Text input** (10%)
+    - Click ![](https://i.imgur.com/TuPF0cT.png =30x30) in the left toolbar to select the text tool, then click on where you want to type in the canvas and start typing.
+    - Font menu (typeface and size): Click on the ![](https://i.imgur.com/TuPF0cT.png =30x30) to show or hide font menu. If it doesn't work, click again.
+
+3. Cursor icon (10%)
+    - Custom cursor: brush ![](https://i.imgur.com/QafeBm8.png =30x30), eraser ![](https://i.imgur.com/iZ12cAA.png =30x30)
+    - New (4/5): text tool ![](https://i.imgur.com/TuPF0cT.png =30x30)
+    - Icons are from: www.flaticon.com
+    
+4. **Refresh button** (10%)
+    - Reset canvas: Click on the ![](https://i.imgur.com/qEHbevv.png =30x30) in the left toolbar to reset canvas. All the newly added layers will be deleted. 
+
+## Advance Tools
+
+5. Different brush shapes (15%)
+    - Click on the ![](https://i.imgur.com/8P3ibHc.png =30x30) in the left toolbar to toggle menu. Then, select the shape you want.
+    - **Rectangle**: click and drag to draw a rectangle
+    - **Circle**: click to set the center of circle, then drag to adjust its size.
+    - **Triangle**: Click to set the vertex of the triangle. Then drag to set another vertex. An isosceles triangle will be created.
+    - The shape are filled with the currently chosen color.
+
+6. **Un/Re-do** button (10%)
+    - Click on the ![](https://i.imgur.com/cVx8BqS.png =30x30) button in the left toolbar to undo last step. 
+    - Click again to redo.
+    
+7. **Image tool** (5%)
+    - Upload: Click on the ![](https://i.imgur.com/Dn7e4uL.png =30x30) button to open a file browser and choose an image.
+    - Paste: A ![](https://i.imgur.com/kMPzqLt.png =30x30) cursor will appear. Click on the canvas to paste the image in the desired position.
+
+8. **Download** (5%)
+    - Click on the ![](https://i.imgur.com/iXtklrn.png =30x30) to download current layer as png file.
+
+## Other useful widgets
+
+9. **Layer tools**
+    - There are only 1 layer by default. Click the '+ New Layer' to add new layers. 
+    - You can switch to other layers from the layer selector, or simply by clicking the mini view of the layer.
+    - Toggle the visibility of the layers by clicking the check box. 
+
+10. **Selection tools**
+    - Select the layer you want then click on ![](https://i.imgur.com/vOA7l7q.png =30x30) to draw selection area. 
+    - **Delete**: Click the ![](https://i.imgur.com/u0PN1ar.png =30x30) button to clear the selected area. If no area is selected, the whole canvas will be cleared.
+    - **Cut, copy**: Select the ![](https://i.imgur.com/Pcx14Uh.png =30x30) to cut, or select the ![](https://i.imgur.com/oEcvigX.png =30x30) to copy the selected area. 
+    - **Paste**: A ![](https://i.imgur.com/kMPzqLt.png =30x30) cursor will appear. Click on the canvas to paste the selected area in the desired position.
+    - If no area is selected, then whole canvas will be copied. 
+
+11. **Paint bucket**
+    - Click on the ![](https://i.imgur.com/UsxqNFi.png =30x30) in the left toolbar to fill the whole canvas with choosen color. 
+    - If selection tool is being used, only the area selected will bw filled.
+
+12. **History panel**
+    - There is a 'History' panel in the bottom right corner to view the last state.
